@@ -1,5 +1,8 @@
 # Freight Rate Prediction — Spotter ML Assessment
 
+**Candidate:** Sunil Kumar
+**Loom Walkthrough:** [Watch the video](https://www.loom.com/share/e80ae0fcd483400f8f9f821a65837c0a)
+
 LightGBM model predicting rate per mile × distance. Out-of-time backtest (test months Jul–Oct 2025):
 **MAE $47.10 average, $40.60 on August**, the month that behaves most like Nov–Dec.
 Ridge: $58.14 · naive baseline: $175.24.

@@ -41,7 +41,7 @@ class Report(FPDF):
         self.ln(20)
         self.set_font("Helvetica", "", 12)
         self.set_text_color(100)
-        self.cell(0, 8, "Sunil Jadaun", align="C", new_x="LMARGIN", new_y="NEXT")
+        self.cell(0, 8, "Sunil Kumar", align="C", new_x="LMARGIN", new_y="NEXT")
         self.cell(0, 8, "September 2026", align="C", new_x="LMARGIN", new_y="NEXT")
 
     def section_title(self, title, level=1):
