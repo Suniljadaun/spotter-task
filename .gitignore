@@ -20,3 +20,6 @@ validation_preditions.csv
 
 # assignment PDF (Spotter's property)
 freight-rate-ml-assessment.pdf
+
+# LaTeX source (not needed in repo)
+*.tex
