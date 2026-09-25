@@ -21,7 +21,7 @@ def main()->None:
 
 
     rpm = train["posted_rate"] / train["distance"]
-    month = train["date`"].dt.month
+    month = train["date"].dt.month
 
     section("Shapes and date ranges")
     for name, df in [("train", train), ("validation", val), ("december", dec)]:

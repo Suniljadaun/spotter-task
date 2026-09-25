@@ -12,7 +12,7 @@ import pandas as pd
 from preprocess import DATA_DIR, ROOT, load_dataset, preprocess_data
 
 MODEL_PATH = ROOT/ "models" /  "freight_model.pkl"
-SUBMISSION_PATH = ROOT/ "validation_preditions.csv"
+SUBMISSION_PATH = ROOT / "validation_predictions.csv"
 DECEMBER_PATH = DATA_DIR / "december_chart_inputs.csv"
 
 

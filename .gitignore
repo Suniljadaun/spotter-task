@@ -1,5 +1,22 @@
+# virtual environment
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
-models/ 
+*.pyo
+.pytest_cache/
 
+# large raw data files (not needed to reproduce — provided by Spotter)
+data/train_test.csv
+data/validation.csv
+data/validation_predictions_template.csv
+
+# trained model binary (too large; regenerate with: python src/train.py)
+models/
+
+# typo'd old submission file
+validation_preditions.csv
+
+# assignment PDF (Spotter's property)
+freight-rate-ml-assessment.pdf
