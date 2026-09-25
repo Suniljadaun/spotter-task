@@ -1,0 +1,121 @@
+{
+  "backtest": [
+    {
+      "month": "2025-07",
+      "experiment": "Naive: equipment median",
+      "MAE": 156.74
+    },
+    {
+      "month": "2025-07",
+      "experiment": "Ridge",
+      "MAE": 70.7
+    },
+    {
+      "month": "2025-07",
+      "experiment": "LightGBM",
+      "MAE": 64.43
+    },
+    {
+      "month": "2025-07",
+      "experiment": "LightGBM + quote_signal",
+      "MAE": 44.73
+    },
+    {
+      "month": "2025-07",
+      "experiment": "LightGBM + market_index",
+      "MAE": 39.8
+    },
+    {
+      "month": "2025-08",
+      "experiment": "Naive: equipment median",
+      "MAE": 193.42
+    },
+    {
+      "month": "2025-08",
+      "experiment": "Ridge",
+      "MAE": 54.18
+    },
+    {
+      "month": "2025-08",
+      "experiment": "LightGBM",
+      "MAE": 40.6
+    },
+    {
+      "month": "2025-08",
+      "experiment": "LightGBM + quote_signal",
+      "MAE": 110.38
+    },
+    {
+      "month": "2025-08",
+      "experiment": "LightGBM + market_index",
+      "MAE": 65.71
+    },
+    {
+      "month": "2025-09",
+      "experiment": "Naive: equipment median",
+      "MAE": 177.84
+    },
+    {
+      "month": "2025-09",
+      "experiment": "Ridge",
+      "MAE": 56.8
+    },
+    {
+      "month": "2025-09",
+      "experiment": "LightGBM",
+      "MAE": 43.92
+    },
+    {
+      "month": "2025-09",
+      "experiment": "LightGBM + quote_signal",
+      "MAE": 28.25
+    },
+    {
+      "month": "2025-09",
+      "experiment": "LightGBM + market_index",
+      "MAE": 129.14
+    },
+    {
+      "month": "2025-10",
+      "experiment": "Naive: equipment median",
+      "MAE": 172.98
+    },
+    {
+      "month": "2025-10",
+      "experiment": "Ridge",
+      "MAE": 50.89
+    },
+    {
+      "month": "2025-10",
+      "experiment": "LightGBM",
+      "MAE": 39.47
+    },
+    {
+      "month": "2025-10",
+      "experiment": "LightGBM + quote_signal",
+      "MAE": 33.67
+    },
+    {
+      "month": "2025-10",
+      "experiment": "LightGBM + market_index",
+      "MAE": 79.45
+    }
+  ],
+  "importance_pct": {
+    "weight_per_mile": 50.6,
+    "equipment": 30.1,
+    "distance": 11.5,
+    "delivery_lat": 1.6,
+    "pickup_lat": 1.6,
+    "delivery_lon": 1.0,
+    "pickup_lon": 1.0,
+    "weight": 0.9,
+    "dayofweek": 0.7,
+    "circuity": 0.3,
+    "delta_lat": 0.3,
+    "delta_lon": 0.2,
+    "is_weekend": 0.0,
+    "weight_missing": 0.0,
+    "weight_was_negative": 0.0
+  }
+}
